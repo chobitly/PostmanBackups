@@ -1,0 +1,70 @@
+{
+  "info": {
+    "name": "YYWD ERP",
+    "_postman_id": "5ec005a7-8b50-e8f5-3a6c-da6e1f616c26",
+    "description": "éERP¥ã{Æ¥ã-¥ãè",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "d308ad6c-bbd9-4c01-4e9e-f39e0f05e6c2",
+      "name": "Say Hello",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"access_token\": \"o86svvjsloeovrs7pfp4817iq7\" }"
+        },
+        "url": "{{url}}/erp-agent/say-hello",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "40d6427c-bbf3-7674-1995-e19af3fa8532",
+      "name": "ei™{",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"access_token\": \"o86svvjsloeovrs7pfp4817iq7\",\n\t\"categories\": [\n\t\t{\n\t\t\t\"category_code\": \"TestCtg\",\n\t\t\t\"category_name\": \"KÕ{\",\n\t\t\t\"level\": 1,\n\t\t\t\"parent_code\": \"\"\n\t\t},\n\t\t{\n\t\t\t\"category_code\": \"TestCtgChild\",\n\t\t\t\"category_name\": \"KÕ{\",\n\t\t\t\"level\": 2,\n\t\t\t\"parent_code\": \"TestCtg\"\n\t\t}\n\t]\n}"
+        },
+        "url": "{{url}}/erp-sync-base/sync-ctg",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "342fcc47-c7fe-627d-dfbe-092a2b8ae2f6",
+      "name": "ˆCŒÁ",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"app_id\":\"201708190000019204\",\n\t\"secret\":\"de6561669eb61b43ad0ded39dcccdfda\",\n\t\"account_id\":\"021013\"\n}"
+        },
+        "url": "{{url}}/erp-agent/login",
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
