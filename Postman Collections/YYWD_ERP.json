@@ -21,7 +21,7 @@
           "mode": "raw",
           "raw": "{ \"access_token\": \"o86svvjsloeovrs7pfp4817iq7\" }"
         },
-        "url": "{{url}}/erp-agent/say-hello",
+        "url": "{{api_domain}}/erp-agent/say-hello",
         "description": null
       },
       "response": []
