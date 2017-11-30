@@ -41,7 +41,7 @@
           "mode": "raw",
           "raw": "{\n\t\"access_token\": \"o86svvjsloeovrs7pfp4817iq7\",\n\t\"categories\": [\n\t\t{\n\t\t\t\"category_code\": \"TestCtg\",\n\t\t\t\"category_name\": \"KÕ{\",\n\t\t\t\"level\": 1,\n\t\t\t\"parent_code\": \"\"\n\t\t},\n\t\t{\n\t\t\t\"category_code\": \"TestCtgChild\",\n\t\t\t\"category_name\": \"KÕ{\",\n\t\t\t\"level\": 2,\n\t\t\t\"parent_code\": \"TestCtg\"\n\t\t}\n\t]\n}"
         },
-        "url": "{{url}}/erp-sync-base/sync-ctg",
+        "url": "{{api_domain}}/erp-sync-base/sync-ctg",
         "description": null
       },
       "response": []
