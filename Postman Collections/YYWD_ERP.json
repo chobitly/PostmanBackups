@@ -48,7 +48,7 @@
     },
     {
       "_postman_id": "fa99b801-286c-aed3-3a34-4c1e694b13b5",
-      "name": "ei™ copy",
+      "name": "ei™",
       "request": {
         "method": "POST",
         "header": [
@@ -68,7 +68,119 @@
         "url": "{{api_domain}}/ent/sync-base/sync-materials",
         "description": "“eÂp\n- units`array` UMh\n\t- unit_code`string` UM\n\t- unit_name`string` UMð\n\nÔÞ<\n- à\n\nï\n- à"
       },
-      "response": []
+      "response": [
+        {
+          "id": "7eab710b-e99b-6665-bfef-f4df7f7da85a",
+          "name": "ei™",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              },
+              {
+                "key": "access-token",
+                "value": "{{access_token}}",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"materials\": [\n\t\t{\n\t\t\t\"material_code\": \"M000001\",\n\t\t\t\"material_name\": \"KÕFÁ\",\n\t\t\t\"category_code\": \"02\",\n\t\t\t\"unit_name\": \"ö\",\n\t\t\t\"public_flg\": 1,\n\t\t\t\"stock_batch_rule_type\": 1\n\t\t}\n\t]\n}"
+            },
+            "url": "{{api_domain}}/ent/sync-base/sync-materials"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Cache-Control",
+              "value": "no-store, no-cache, must-revalidate",
+              "name": "Cache-Control",
+              "description": ""
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive",
+              "name": "Connection",
+              "description": ""
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/html; charset=UTF-8",
+              "name": "Content-Type",
+              "description": ""
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 01 Dec 2017 03:17:06 GMT",
+              "name": "Date",
+              "description": ""
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 19 Nov 1981 08:52:00 GMT",
+              "name": "Expires",
+              "description": ""
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100",
+              "name": "Keep-Alive",
+              "description": ""
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache",
+              "name": "Pragma",
+              "description": ""
+            },
+            {
+              "key": "Server",
+              "value": "Apache/2.4.27 (Unix)",
+              "name": "Server",
+              "description": ""
+            },
+            {
+              "key": "Set-Cookie",
+              "value": "YiYanWeiDing_API2_LOCAL=o86svvjsloeovrs7pfp4817iq7; path=/; HttpOnly",
+              "name": "Set-Cookie",
+              "description": ""
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked",
+              "name": "Transfer-Encoding",
+              "description": ""
+            }
+          ],
+          "cookie": [
+            {
+              "expires": "Tue Jan 19 2038 03:14:07 GMT+0000 (UTC)",
+              "httpOnly": true,
+              "domain": "api2.yywd.com",
+              "path": "/",
+              "secure": false,
+              "value": "6sropvgmso0ev7trqr50l1ddk1",
+              "key": "YiYanWeiDing"
+            },
+            {
+              "expires": "Tue Jan 19 2038 03:14:07 GMT+0000 (UTC)",
+              "httpOnly": true,
+              "domain": "api2.yywd.com",
+              "path": "/",
+              "secure": false,
+              "value": "o86svvjsloeovrs7pfp4817iq7",
+              "key": "YiYanWeiDing_API2_LOCAL"
+            }
+          ],
+          "responseTime": "352",
+          "body": "{\"data\":[],\"status\":\"OK\"}"
+        }
+      ]
     },
     {
       "_postman_id": "342fcc47-c7fe-627d-dfbe-092a2b8ae2f6",
