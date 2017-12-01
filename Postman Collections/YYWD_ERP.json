@@ -65,6 +65,30 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "fa99b801-286c-aed3-3a34-4c1e694b13b5",
+      "name": "ei™ copy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "access-token",
+            "value": "{{access_token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"materials\": [\n\t\t{\n\t\t\t\"material_code\": \"M000001\",\n\t\t\t\"material_name\": \"KÕFÁ\",\n\t\t\t\"category_code\": \"01\",\n\t\t\t\"unit_name\": \"ö\",\n\t\t\t\"public_flg\": 1,\n\t\t\t\"stock_batch_rule_type\": 1\n\t\t}\n\t]\n}"
+        },
+        "url": "{{api_domain}}/ent/sync-base/sync-materials",
+        "description": "“eÂp\n- units`array` UMh\n\t- unit_code`string` UM\n\t- unit_name`string` UMð\n\nÔÞ<\n- à\n\nï\n- à"
+      },
+      "response": []
     }
   ]
 }
