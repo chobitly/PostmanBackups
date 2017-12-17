@@ -205,30 +205,6 @@
         "description": ""
       },
       "response": []
-    },
-    {
-      "_postman_id": "8cf6501c-e4af-4042-cd51-14b2c36e5372",
-      "name": "http://test.yywd.vip:8080/api/jobs/push_notification",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          },
-          {
-            "key": "cache-control",
-            "value": "no-cache"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"url\": \"http://127.0.0.1\",\n    \"headers\": {\n        \"X-YYWD-Token\": \"111\"\n    },\n    \"body\": {\n        \"id\": 123456,\n        \"name\": \"xxx\"\n    }\n}"
-        },
-        "url": "http://test.yywd.vip:8080/api/jobs/push_notification",
-        "description": null
-      },
-      "response": []
     }
   ]
 }
