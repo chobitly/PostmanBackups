@@ -26,26 +26,6 @@
       "response": []
     },
     {
-      "_postman_id": "0567554a-77bb-473e-9333-06eb85e77284",
-      "name": "\u603b\u90e8-\u68c0\u67e5\u54c1\u724c\u4fe1\u606f Copy",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"account_id\":\"021001\"}"
-        },
-        "url": "{{api_domain}}/account/check-account",
-        "description": "\u83b7\u53d6\u54c1\u724c\u4fe1\u606f\u7684\u63a5\u53e3\uff0c\u73b0\u5728\u5b8c\u5168\u6ca1\u5b89\u5168\u6027\u53ef\u8a00"
-      },
-      "response": []
-    },
-    {
       "_postman_id": "24cd7c62-cce2-71c2-535b-e4388de4b196",
       "name": "\u603b\u90e8-APP\u83b7\u53d6\u54c1\u724c\u4fe1\u606f",
       "request": {
