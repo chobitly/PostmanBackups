@@ -62,7 +62,7 @@
             }
           ]
         },
-        "url": "{{api_domain}}/api/get-practice-accounts",
+        "url": "{{base_domain}}/api/get-practice-accounts",
         "description": "\u83b7\u53d6\u4f53\u9a8c\u8d26\u53f7\u5217\u8868\u63a5\u53e3\uff0c\u53ef\u4f7f\u7528get\u3001post\u7b49\u65b9\u5f0f\u8bbf\u95ee\u3002"
       },
       "response": []
