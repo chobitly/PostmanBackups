@@ -2575,7 +2575,7 @@
           "mode": "raw",
           "raw": ""
         },
-        "url": "{{api_domain}}/order/getOrders"
+        "url": "{{api_domain}}/payment/prePay"
       },
       "response": []
     }
